@@ -1,0 +1,155 @@
+@media screen and ( min-width: 1px ) {
+
+     /* index */
+
+    .body {
+        background-color: rgb(203, 222, 238);
+        font-family: Thin 100;
+    }
+
+    .logoAndSignUp{
+        background-color: rgb(151, 184, 212);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: solid 02px grey;
+        margin: 2%;
+
+    }
+
+
+    .buttonContainer {
+        display: flex;
+        margin: 10%;
+        justify-content: center;
+        align-content: center;
+        justify-content: space-evenly;
+
+    }
+     
+    .section {
+        background-color: aliceblue;
+        margin: 5%;
+        border: solid 02px grey;
+    }
+
+    .gridImages {
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+
+    .imagenDeGrid {
+        margin-left: 30%;
+        justify-content: space-between;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+    }
+
+    .section p {
+        margin: 5%;
+    }
+
+    .footer, .aboutUsFooter {
+      background-color: rgb(126, 158, 185);
+      border: solid 02px grey;
+      margin: 5%;
+    }
+    .carouselContainer {
+        padding: 10%
+    }
+
+
+
+    /* fin index */
+
+    /* about us */
+
+
+    .aboutUsBody {
+        background-color: rgb(203, 222, 238);
+        font-family: Thin 100;
+    }
+
+    .logoAndSignUp{
+        background-color: rgb(151, 184, 212);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: solid 02px grey;
+        margin: 2%;
+
+    }
+
+
+    .aboutUsButtonContainer {
+        display: flex;
+        margin: 10%;
+        justify-content: center;
+        align-content: center;
+        justify-content: space-evenly;
+
+    }
+     
+    .aboutUsSection {
+        background-color: aliceblue;
+        margin: 5%;
+        border: solid 02px grey;
+    }
+    .pAboutUs {
+        margin: 5%;
+        padding: 5%;
+    }
+
+
+
+    /* fin about us*/
+
+
+
+}
+@media screen and ( min-width: 600px ) {
+    
+}
+@media screen and ( min-width: 700px ) {
+    
+}
+
+
+
+
+@media screen and ( min-width: 900px ) {
+
+
+    .section p { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10%;
+        margin: 5%;
+        border: solid 02px grey;
+
+    }
+
+    .carouselContainer {
+        padding: 15%
+    }
+
+    .gridImages {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 1fr;
+        margin-bottom: 10%;
+    }
+
+    .imagenDeGrid {
+        margin-left: 30%;
+        justify-content: space-between;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+    }
+}
